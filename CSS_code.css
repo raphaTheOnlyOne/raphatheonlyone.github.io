@@ -1,0 +1,99 @@
+        html{
+            color:white;
+            background-color: rgb(40, 60, 146);
+            font-family: "Trebuchet MS", sans-serif;
+        }
+        h1{font-size:500%}
+        h2{font-size: 125%;}
+        h3{font-size: 150%}
+        h5{font-size: 120%}
+        h6{font-size: 115%; font-weight: 800; margin: 0;}
+        header { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 95%;
+            z-index: 10;
+            padding: 10px;
+            margin-right: 25px;
+            display:flex;
+            gap: 25px;
+            justify-content: center;
+            font-family: sans-serif;
+            a{color: white;}
+        }
+        a{
+            color:#ff1818;   
+            text-decoration:none;
+            font-size:large;
+            font-weight:900;
+        }
+        .First_page{
+            img{height:45%}
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+        .scroller {
+            height: 95vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+        }
+        section {
+            height: 95vh;
+            width: 100%;
+            scroll-snap-align: start; 
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            box-sizing: border-box;
+            display:flex;
+            position: relative;
+        }
+        .project{
+            
+        }
+        .talk{
+            img{height :50px; width: auto; object-fit: cover; border-radius: 50%; border: 2px solid white;}
+        }
+        .Presentation{
+            display: flex;
+            margin: 0 auto;
+            text-align: left;
+            align-items: center;
+            gap: 25px;
+            padding: 20px;
+            max-width: 900px;
+        }
+        .txt{
+            flex:1;
+            text-align: left;
+            line-height: 1.6;
+            font-size: small;
+        }
+        .mini-footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgb(31, 31, 31);
+            color: white;
+            padding: 10px 20px;
+            display: flex; 
+            align-items: center; 
+            justify-content: flex-start; 
+            box-sizing: border-box;
+        }
+        .mini-footer .copyright {
+            margin: 0;
+            margin-right: 25px; 
+            font-size: 0.8rem;
+        }
+
+        .mini-footer img {
+            height: 30px;
+            width: auto;    
+            vertical-align: middle; 
+            margin-left: 30px;
+        }
