@@ -5,9 +5,10 @@
         }
         h1{font-size:500%}
         h2{font-size: 125%;}
-        h3{font-size: 150%}
-        h5{font-size: 120%}
-        h6{font-size: 115%; font-weight: 800; margin: 0;}
+        h3{font-size: 125%}
+        h4{margin: 0; margin-top: 2%;}
+        h5{font-size: 90%}
+        h6{font-size: 80%; font-weight: 800; margin: 0;}
         header { 
             position: absolute;
             top: 0;
@@ -20,12 +21,12 @@
             gap: 25px;
             justify-content: center;
             font-family: sans-serif;
-            a{color: white;}
+            a{color: white; font-size: 50%;}
         }
         a{
             color:#ff1818;   
             text-decoration:none;
-            font-size:large;
+            font-size: 100%;
             font-weight:900;
         }
         .First_page{
@@ -46,7 +47,7 @@
             scroll-snap-align: start; 
             flex-direction: column;
             justify-content: center;
-            padding: 40px;
+            padding: 4%;
             box-sizing: border-box;
             display:flex;
             position: relative;
@@ -55,22 +56,29 @@
             
         }
         .talk{
-            img{height :50px; width: auto; object-fit: cover; border-radius: 50%; border: 2px solid white;}
+            img{height :50px; 
+                width: auto; 
+                object-fit: cover; 
+                border-radius: 50%; 
+                border: 2px solid white; 
+                flex-shrink: 0;
+                max-width: 50px;
+            }
         }
         .Presentation{
             display: flex;
             margin: 0 auto;
             text-align: left;
             align-items: center;
-            gap: 25px;
-            padding: 20px;
+            gap: 4%;
+            padding: 1%;
             max-width: 900px;
         }
         .txt{
             flex:1;
             text-align: left;
             line-height: 1.6;
-            font-size: small;
+            font-size: 75%;
         }
         .mini-footer {
             position: absolute;
